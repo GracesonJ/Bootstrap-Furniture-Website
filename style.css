@@ -65,14 +65,21 @@ li i{
 #welcome h1{
     font-size: 100px;
 }
-
-#welcome button, #view-btn{
+@media(max-width:600px){
+    #welcome h4{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size: 50px;
+    }  
+}
+#welcome button, #view-btn, #viewBtn{
     border-color: white;
     color: white;
     font-size: 20px;
     border-width: 2px;
 }
-#welcome button:hover, #view-btn:hover{
+#welcome button:hover, #view-btn:hover, #viewBtn:hover{
     border-color:var(--x);
     color: var(--x);
 }
@@ -85,4 +92,32 @@ li i{
     background-size: cover;
     margin-top: 5%;
     padding-top: 2%;
+}
+#about{
+    background-color: rgb(192, 192, 192);
+    padding-top: 8%;
+}
+#about h1{
+    color: var(--v);
+}
+#hr{
+    background-color: var(--x);
+    width: 200px;
+    height: 7px;
+}
+#about{
+    text-align: justify;
+}
+#aboutDiv{
+    border: 7px solid var(--x);
+    width: 100%;
+    height: 400px;
+    padding-left: 8%;
+    padding-top: 4%;
+}
+#div1{
+    background-color: rgba(0, 0, 0, 0.856);
+    width: 50%;
+    height: 6rem;
+    color: white;
 }
