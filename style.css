@@ -73,13 +73,13 @@ li i{
         font-size: 50px;
     }  
 }
-#welcome button, #view-btn, #viewBtn{
+#welcome button, #view-btn, #viewBtn, #viewBtn5{
     border-color: white;
     color: white;
     font-size: 20px;
     border-width: 2px;
 }
-#welcome button:hover, #view-btn:hover, #viewBtn:hover{
+#welcome button:hover, #view-btn:hover, #viewBtn:hover, #viewBtn5:hover{
     border-color:var(--x);
     color: var(--x);
 }
@@ -115,6 +115,8 @@ li i{
     padding-left: 8%;
     padding-top: 4%;
 }
+
+/* Gallery */
 #div1{
     background-color: rgba(0, 0, 0, 0.856);
     width: 50%;
